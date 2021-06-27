@@ -1,0 +1,30 @@
+{
+  "name": "Rocktq",
+  "version": "1.0.0",
+  "description": "Projeto para gerenciar perguntas anonimas. Projeto desemvolvido na semana NWL da Rocketseat",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon .",
+    "init-db": "node src/db/init.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lariss4vitoria/Rockt.Q.git"
+  },
+  "keywords": [],
+  "author": "Larissa Vitoria",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lariss4vitoria/Rockt.Q/issues"
+  },
+  "homepage": "https://github.com/lariss4vitoria/Rockt.Q#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "sqlite": "^4.0.23",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
